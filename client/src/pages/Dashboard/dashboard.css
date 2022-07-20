@@ -1,0 +1,43 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.dashboard_left_side {
+  flex: 0.3;
+  /* border: 1px solid lightgrey; */
+  height: 100vh;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+.dashboard_right_side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.7;
+  height: 100vh;
+}
+.left_top {
+  height: 10%;
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    rgb(253, 47, 112),
+    rgb(255, 81, 72)
+  ) !important;
+}
+.dashboard_avatar {
+  margin-left: 20px;
+}
+.dashboard_tabs{
+    margin-left: 70px !important;
+    text-transform: capitalize !important;
+    font-size: 1rem !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+    padding: 2px;
+    background-color:rgb(253, 47, 112) !important ;
+}
+.text-white{
+    letter-spacing: 3px !important;
+}

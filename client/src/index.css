@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Readex Pro", sans-serif;
+}
+.Home {
+  background: linear-gradient(to bottom, rgb(14, 12, 10) -20%, transparent),
+    url("../public/images/home.webp");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* color */
+.text-white {
+  color: white;
+}
+
+.text-dark {
+  color: black !important;
+}
+
+.text-gray {
+  color: gray;
+}
+/* Button */
+.primary_button {
+  border: none !important;
+  cursor: pointer !important;
+  padding: 17px 70px !important;
+  font-size: 15px !important;
+  text-align: center !important;
+  color: white !important;
+  border-radius: 56px !important;
+  background: linear-gradient(to right, rgb(253, 47, 112), rgb(255, 81, 72)) !important;
+}
+.primary_button:hover {
+  background: linear-gradient(to left, rgb(253, 47, 112), rgb(255, 81, 72)) !important;
+}
+.secondary_button {
+  border: none !important;
+  cursor: pointer !important;
+  padding: 8px 30px !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  color: rgb(217, 19, 62) !important; 
+  border-radius: 8px !important;
+  background: white !important;
+}
+
+/* font-family */
+.sans-serif {
+  font-family: sans-serif !important;
+}
